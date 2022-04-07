@@ -220,6 +220,7 @@ ul.experience-list {
         font-size: 0.89rem;
         line-height: 1;
         font-weight: 600;
+        color: rgb(19, 68, 135);
       }
     }
 
@@ -242,7 +243,7 @@ a, a:visited {
   text-decoration: none;
   transition: color 0.3s ease-out 0s;
 
-  .subtle, .subtle:visited {
+  &.subtle, &.subtle:visited {
     font-weight: inherit;
     color: inherit;
   }
