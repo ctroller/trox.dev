@@ -20,12 +20,9 @@ body main {
   flex-flow: nowrap;
   -moz-box-pack: justify;
 }
-@media screen {
+@media screen and (min-width: 39.99em) {
   body main {
-    border-radius: 2px;
-    max-width: 60rem;
-    box-shadow: rgba(0, 0, 0, 0.5) 0 2px 4px;
-    min-height: 1200px;
+    flex-flow: column wrap;
   }
 }
 @media screen and (min-width: 52em) {
@@ -33,9 +30,12 @@ body main {
     margin: 2.5rem auto;
   }
 }
-@media screen and (mind-width: 39.99em) {
+@media screen {
   body main {
-    flex-flow: column wrap;
+    border-radius: 2px;
+    max-width: 60rem;
+    box-shadow: rgba(0, 0, 0, 0.5) 0 2px 4px;
+    min-height: 1200px;
   }
 }
 body section.main {

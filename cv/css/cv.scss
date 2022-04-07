@@ -23,19 +23,19 @@ body {
   line-height: 1.7;
 
   main {
-    @media screen {
-      border-radius: 2px;
-      max-width: 60rem;
-      box-shadow: rgba(0, 0, 0, 0.5) 0 2px 4px;
-      min-height: 1200px;
+    @media screen and (min-width: 39.99em) {
+      flex-flow: column wrap;
     }
 
     @media screen and (min-width: 52em) {
       margin: 2.5rem auto;
     }
 
-    @media screen and (min-width: 39.99em) {
-      flex-flow: column wrap;
+    @media screen {
+      border-radius: 2px;
+      max-width: 60rem;
+      box-shadow: rgba(0, 0, 0, 0.5) 0 2px 4px;
+      min-height: 1200px;
     }
 
     background: rgb(255, 255, 255) none repeat scroll 0 0;
