@@ -215,6 +215,11 @@ a .subtle, a .subtle:visited, a:visited .subtle, a:visited .subtle:visited {
   color: inherit;
 }
 
+ul.work-content-list {
+  list-style-type: square;
+  margin-bottom: 2.5em;
+}
+
 p.key-techs {
   margin-top: -10px;
   font-size: 0.66667rem;
