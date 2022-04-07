@@ -262,3 +262,43 @@ hr {
   border: 1px solid currentcolor;
   margin: -1px 0px;
 }
+
+.skillset {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: auto;
+  margin-bottom: 2.5em;
+  font-size: 0.83rem;
+
+  .skill {
+    margin-top: 0.5em;
+  }
+}
+
+.progress {
+  display: flex;
+  height: 0.3rem;
+  overflow: hidden;
+  line-height: 0;
+  font-size: .75rem;
+  background-color: darken($offset-color-light, 10%);
+  border-radius: .25rem;
+  margin-right: 4px;
+  margin-top: 0;
+  width: 90%;
+
+  .progress-bar {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: center;
+    justify-content: center;
+    overflow: hidden;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #007bff;
+    transition: width .6s ease;
+  }
+}
