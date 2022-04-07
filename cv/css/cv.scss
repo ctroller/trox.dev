@@ -110,11 +110,11 @@ body {
           margin: 0;
           color: $offset-text-color;
         }
+      }
 
-        .subtitle {
-          font-size: 1.33rem;
-          color: rgb(75, 116, 172);
-        }
+      .subtitle {
+        font-size: 1.33rem;
+        color: rgb(75, 116, 172);
       }
 
       footer {
@@ -156,6 +156,12 @@ body {
             }
           }
         }
+      }
+
+      hr {
+        border-color: rgb(175, 204, 244);
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
       }
     }
   }

@@ -101,7 +101,7 @@ body section.information header .title {
     max-width: 15rem;
   }
 }
-body section.information header .subtitle {
+body section.information .subtitle {
   font-size: 1.33rem;
   color: rgb(75, 116, 172);
 }
@@ -138,6 +138,11 @@ body section.information footer ul.contact li a {
 }
 body section.information footer ul.contact li a:visited {
   color: rgb(75, 115, 172);
+}
+body section.information hr {
+  border-color: rgb(175, 204, 244);
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 body p {
   font-size: 0.83rem;
