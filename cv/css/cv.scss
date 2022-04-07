@@ -23,13 +23,11 @@ body {
   line-height: 1.7;
 
   main {
-    @media screen and (min-width: 39.99em) {
-      flex-flow: column wrap;
-    }
-
-    @media screen and (min-width: 52em) {
-      margin: 2.5rem auto;
-    }
+    background: rgb(255, 255, 255) none repeat scroll 0 0;
+    color: rgb(19, 68, 135);
+    display: flex;
+    flex-flow: nowrap;
+    -moz-box-pack: justify;
 
     @media screen {
       border-radius: 2px;
@@ -37,12 +35,6 @@ body {
       box-shadow: rgba(0, 0, 0, 0.5) 0 2px 4px;
       min-height: 1200px;
     }
-
-    background: rgb(255, 255, 255) none repeat scroll 0 0;
-    color: rgb(19, 68, 135);
-    display: flex;
-    flex-flow: nowrap;
-    -moz-box-pack: justify;
   }
 
   section {
