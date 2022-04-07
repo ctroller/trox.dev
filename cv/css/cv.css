@@ -20,6 +20,11 @@ body main {
   flex-flow: nowrap;
   -moz-box-pack: justify;
 }
+@media screen and (max-width: 40em) {
+  body main {
+    flex-flow: column-reverse;
+  }
+}
 @media screen and (min-width: 52em) {
   body main {
     margin: 2.5rem auto;

@@ -29,6 +29,9 @@ body {
     flex-flow: nowrap;
     -moz-box-pack: justify;
 
+    @media screen and (max-width: 40em) {
+      flex-flow: column-reverse;
+    }
 
     @media screen and (min-width: 52em) {
       margin: 2.5rem auto;
