@@ -59,29 +59,6 @@ body {
       align-self: stretch;
       padding: 1.5rem 1.7rem;
       background-color: $light-color;
-
-      h2 {
-        color: $offset-text-color;
-        font-size: 1.5rem;
-        line-height: 1.22;
-        margin-bottom: 1.11rem;
-        display: inline-block;
-        margin-top: 0;
-        position: relative;
-        z-index: 1;
-
-        &::after {
-          content: " ";
-          background-color: $offset-color-dark;
-          display: inline-block;
-          width: 100%;
-          height: 10px;
-          position: absolute;
-          z-index: -1;
-          top: 18px;
-          left: 10px;
-        }
-      }
     }
 
     &.information {
@@ -305,5 +282,28 @@ hr {
     white-space: nowrap;
     background-color: #007bff;
     transition: width .6s ease;
+  }
+}
+
+h2 {
+  color: $offset-text-color;
+  font-size: 1.3rem;
+  line-height: 1.22;
+  margin-bottom: 1.11rem;
+  display: inline-block;
+  margin-top: 0;
+  position: relative;
+  z-index: 1;
+
+  &::after {
+    content: " ";
+    background-color: $offset-color-dark;
+    display: inline-block;
+    width: 100%;
+    height: 10px;
+    position: absolute;
+    z-index: -1;
+    top: 18px;
+    left: 10px;
   }
 }
