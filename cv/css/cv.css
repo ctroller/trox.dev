@@ -213,4 +213,9 @@ a .subtle, a .subtle:visited, a:visited .subtle, a:visited .subtle:visited {
   color: inherit;
 }
 
+p.key-techs {
+  margin-top: -10px;
+  font-size: 0.66667rem;
+}
+
 /*# sourceMappingURL=cv.css.map */
