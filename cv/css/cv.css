@@ -13,9 +13,6 @@ body {
   background-color: rgb(49, 57, 68);
   line-height: 1.7;
 }
-body #body {
-  outline: none;
-}
 body main {
   background: rgb(255, 255, 255) none repeat scroll 0 0;
   color: rgb(19, 68, 135);
@@ -26,7 +23,7 @@ body main {
 @media screen {
   body main {
     border-radius: 2px;
-    max-width: 50rem;
+    max-width: 60rem;
     box-shadow: rgba(0, 0, 0, 0.5) 0 2px 4px;
     min-height: 1200px;
   }
@@ -34,6 +31,11 @@ body main {
 @media screen and (min-width: 52em) {
   body main {
     margin: 2.5rem auto;
+  }
+}
+@media screen and (mind-width: 39.99em) {
+  body main {
+    flex-flow: column wrap;
   }
 }
 body section.main {
