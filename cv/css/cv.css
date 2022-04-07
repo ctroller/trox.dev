@@ -36,23 +36,23 @@ body main {
     margin: 2.5rem auto;
   }
 }
-body section.experience {
+body section.main {
   align-self: stretch;
   padding: 1.5rem 1.7rem;
   background-color: #AAFEFF;
 }
 @media (min-width: 64em) {
-  body section.experience {
+  body section.main {
     padding-top: 2.5rem;
     padding-bottom: 2.5rem;
   }
 }
 @media (min-width: 40em) {
-  body section.experience {
+  body section.main {
     width: 66.6667%;
   }
 }
-body section.experience h2 {
+body section.main h2 {
   color: rgb(33, 66, 111);
   font-size: 1.333rem;
   line-height: 1.22;
@@ -62,7 +62,7 @@ body section.experience h2 {
   position: relative;
   z-index: 1;
 }
-body section.experience h2::after {
+body section.main h2::after {
   content: " ";
   background-color: rgba(74, 142, 235, 0.25);
   display: inline-block;
@@ -145,27 +145,27 @@ body p {
   margin-bottom: 1.6667rem;
 }
 
-ul.experience {
+ul.experience-list {
   list-style: none;
   margin: 10px 0;
   padding: 0;
 }
-ul.experience li.experience-entry {
+ul.experience-list li.experience-entry {
   margin: 7px 0 0;
   padding: 0;
 }
-ul.experience li.experience-entry div.work-title {
+ul.experience-list li.experience-entry div.work-title {
   display: flex;
   -moz-box-align: center;
   align-items: center;
   font-size: 0.87rem;
   font-weight: 600;
 }
-ul.experience li.experience-entry div.work-title img.work-icon {
+ul.experience-list li.experience-entry div.work-title img.work-icon {
   width: 34px;
   margin-right: 16px;
 }
-ul.experience li.experience-entry div.work-title .intermediate-circle {
+ul.experience-list li.experience-entry div.work-title .intermediate-circle {
   width: 16px;
   padding-right: 4px;
   margin-left: 8px;
@@ -178,24 +178,24 @@ ul.experience li.experience-entry div.work-title .intermediate-circle {
   flex-shrink: 0;
   color: rgb(116, 161, 224);
 }
-ul.experience li.experience-entry div.work-title .intermediate-circle svg {
+ul.experience-list li.experience-entry div.work-title .intermediate-circle svg {
   width: 8px;
   fill: rgb(191, 212, 241);
 }
-ul.experience li.experience-entry div.work-title small {
+ul.experience-list li.experience-entry div.work-title small {
   color: rgb(116, 161, 224);
 }
-ul.experience li.experience-entry div.work-title h3 {
+ul.experience-list li.experience-entry div.work-title h3 {
   font-family: "Open Sans", system-ui, sans-serif;
   margin: 0 0 4px;
   font-size: 0.89rem;
   line-height: 1;
   font-weight: 600;
 }
-ul.experience li.experience-entry:last-of-type div.work-content {
+ul.experience-list li.experience-entry:last-of-type div.work-content {
   border-left: none;
 }
-ul.experience li.experience-entry div.work-content {
+ul.experience-list li.experience-entry div.work-content {
   font-size: 0.8em;
   margin: 8px 0 0 14px;
   padding: 0 0 6px 34px;
