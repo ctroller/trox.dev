@@ -41,7 +41,7 @@ body main {
 body section.main {
   align-self: stretch;
   padding: 1.5rem 1.7rem;
-  background-color: #AAFEFF;
+  background-color: #FFFFFF;
 }
 @media (min-width: 64em) {
   body section.main {
